@@ -1,0 +1,183 @@
+@grad-start: #888;
+@border-color: #888;
+@grad-end: #aaa;
+
+body {
+  background-image: url('images/office.jpg');
+  background-repeat: no-repeat;
+  background-color: #222;
+  background-size: 100% auto;
+}
+
+p.error {
+  text-align: center;
+  color: #ccc;
+  font-style: italic;
+}
+
+form.movie {
+  width: 20em;
+  margin: 0 auto;
+
+  fieldset {
+    padding: 1em 0;
+  }
+
+  p {
+    margin: 1em 2em;
+    color: white;
+  }
+
+  label {
+    color: white;
+    width: 8em;
+    text-align: right;
+  }
+
+  #year {
+    width: 5em;
+  }
+
+  p.rating {
+    margin: 2em 0;
+    text-align: center;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: #ccc;
+  font-family: Arial;
+  font-size: 3em;
+  font-style: italic;
+}
+
+p.buttons {
+  text-align: center;
+  word-spacing: 2em;
+  input {
+    width: 6em;
+  }
+}
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+  -moz-box-shadow: 6pt 6px 10pt #888;
+  -webkit-box-shadow: 6pt 6px 10pt #888;
+  box-shadow: 6pt 6px 10pt #888;
+  border-left: 1px solid #e0e0e0;
+  border-collapse: collapse;
+}
+
+table th {
+  color: white;
+  background-color: @grad-start;
+  background: -webkit-gradient(linear, left top, left bottom, from(@grad-start), to(@grad-end));
+  background: -webkit-linear-gradient(top, @grad-start, @grad-end);
+  background: -moz-linear-gradient(top, @grad-start, @grad-end);
+  background: -ms-linear-gradient(top, @grad-start, @grad-end);
+  background: -o-linear-gradient(top, @grad-start, @grad-end);
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  border-right: 1px solid @border-color;
+  border-bottom: 1px solid @border-color;
+  border-top: 1px solid @border-color;
+  text-align: left;
+  font-family: Helvetica, Arial, Sans-Serif;
+  text-decoration: none;
+  padding: 0.1em 0.5em;
+}
+
+table td {
+  border-right: 1px solid @border-color;
+  border-bottom: 1px solid @border-color;
+  background: #ffffff;
+  padding: 0.1em 0.5em;
+  color: #4f6b72;
+
+  span.stars {
+    display: inline-block;
+    width: 5em;
+  }
+
+  span.num {
+    display: inline-block;
+    width: 3em;
+    text-align: right;
+  }
+}
+
+th a:link {
+  color: #F5F3EB;
+}
+
+th a:visited {
+  color: #E3DCC5;
+}
+
+th a:hover {
+  color: #ffffff;
+}
+
+div.instructions {
+  width: 25em;
+  margin: 2em auto;
+  padding: 1em;
+  border: thin solid white;
+
+  p {
+    color: white;
+  }
+}
+
+footer p {
+  text-align: center;
+  color: #999;
+}
+
+form.login {
+  width: 25em;
+  margin: 0 auto;
+
+  fieldset {
+    padding: 1em 0;
+  }
+
+  p {
+    margin: 1em 2em;
+    color: white;
+  }
+
+  label {
+    display: inline-block;
+    color: white;
+    width: 5em;
+    text-align: right;
+  }
+
+  input {
+    display: inline-block;
+  }
+
+  #year {
+    width: 5em;
+  }
+
+  p.rating {
+    margin: 2em 0;
+    text-align: center;
+  }
+}
+
+p.download {
+  text-align: center;
+  color: white;
+
+  a:link, a:visited {
+    color: #ccc;
+  }
+
+  a:hover {
+    color: white;
+  }
+}

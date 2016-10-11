@@ -1,0 +1,23 @@
+p, h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 2em;
+}
+
+input[type="submit"] {
+    width: 6em;
+}
+
+img{
+    margin: 0 40%;
+}
+
+label{
+    margin: 0 0 0 40%;
+}
+
+#play-area {
+    margin: 0 30%;
+}

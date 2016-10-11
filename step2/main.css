@@ -1,0 +1,126 @@
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+body {
+    background-image: url("cave-background.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: "Arial", sans-serif;
+}
+
+header {
+    background-color: #3f3622;
+}
+
+body, header {
+    max-width: 650px;
+    margin: 0 auto 0 auto;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+    padding:.5em 0 .5em 0;
+}
+
+nav {
+    list-style: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: #fff;
+}
+
+.main-pic img {
+    padding: .5em;
+    border: 2px solid black;
+    max-width: 95%;
+    height: auto;
+}
+
+img {
+    max-width: 95%;
+    height: auto;
+}
+
+.main-pic {
+    text-align: center;
+    padding: 2em 0 1em 0;
+}
+
+div.room {
+    width: 200px;
+    display: inline-block;
+}
+
+.content {
+    background-color: #fff;
+}
+
+.rooms a {
+    color: #3f3622;
+}
+
+.rooms {
+    text-align: center;
+}
+
+.rooms img {
+    padding-top: .5em;
+}
+
+.outcome {
+    font-size: 1.5em;
+}
+
+.room-num {
+    padding-bottom: .75em;
+}
+
+.wumpus {
+    padding-bottom: .5em;
+}
+
+.arrows {
+    padding: .5em 0;
+}
+
+.instructions {
+    padding-left: 1.5em;
+    background-color: #fff;
+}
+
+.options {
+    margin: .5em 0 1.5em 0;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+.options p {
+
+    padding-bottom: 1em;
+}
+
+.options a {
+    color: #3f3622;
+}
+
+span {
+    font-style: italic;
+    font-size: 1.25em;
+}
+

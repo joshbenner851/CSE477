@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link href="main.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="welcome.html">New Game</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="instructions.html">Instructions</a></li>
+            </ul>
+        </nav>
+        <h1>Stalking the Wumpus</h1>
+    </header>
+    <div class="content">
+        <figure class="main-pic"><img src="cave.jpg" width="600" height="325" alt="A picture of an empty cave"></figure>
+        <div class="rooms">
+            <div class="outcome">
+                <?php
+                echo '<p>' . date("g:ia l, F j, Y") . '</p>';
+                ?>
+            <p class="room-num">You are in room 6</p>
+            <p>You hear birds!</p>
+            <p>You feel a draft!</p>
+            <p class="wumpus">You smell a wumpus!</p>
+            </div>
+            <div class="room">
+                <figure><img src="cave2.jpg" alt="Empty cave photo"></figure>
+                <p><a href="">3<br> Shoot Arrow</a></p>
+            </div><div class="room">
+                <figure><img src="cave2.jpg" alt="Empty cave photo"></figure>
+                <p><a href="">13 <br> Shoot Arrow</a></p>
+            </div><div class="room">
+                <figure><img src="cave2.jpg" alt="Empty cave photo"></figure>
+                <p><a href="">7<br>Shoot Arrow</a></p>
+            </div>
+            <p class="outcome arrows">You have 3 arrows remaining.</p>
+        </div>
+    </div>
+</body>
+</html>

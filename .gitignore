@@ -1,0 +1,5 @@
+.idea
+*.inc.php
+*.xml
+vendor
+node_modules

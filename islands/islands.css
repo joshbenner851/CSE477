@@ -1,0 +1,59 @@
+body {
+    background-color: #18453B;
+    margin-top: 0.5em;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto 0 auto;
+    background-color: beige;
+}
+
+form p {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+#gameform table {
+    margin: 1em auto 0 auto;
+    border: 0;
+    border-collapse: collapse;
+}
+
+#gameform td {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+
+#gameform td.bad {
+	background-color: red;
+}
+
+
+form input[type="submit"] {
+    font-size: 1.25em;
+    width: 10em;
+}
+
+form button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+	width: 50px;
+	height: 50px;
+	font-size: 2em;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+
+form button.clicked {
+	background-color: aquamarine;
+}
+
+#gameform img {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
