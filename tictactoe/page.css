@@ -1,0 +1,14 @@
+#ttt table {
+    border-collapse: collapse;
+    font-size: 7em;
+    margin: 1em auto;
+    color: #4f6b72;
+    font-family: Arial, sans-serif;
+}
+
+#ttt table td {
+    border: 1px solid black;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+}
